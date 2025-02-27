@@ -41,6 +41,8 @@ def hello_world():
             font-size: 1.2rem;
             opacity: 0.8;
         }
+
+    
         
         /* Profile Picture Styles */
         .profile-picture {
