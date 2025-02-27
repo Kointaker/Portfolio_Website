@@ -4,8 +4,13 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return '''<title>My Portfolio</title> 
-<style>
+    return '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
         * {
             margin: 0;
             padding: 0;
@@ -24,6 +29,7 @@ def hello_world():
             color: white;
             text-align: center;
             padding: 2rem 0;
+            position: relative; /* Added for absolute positioning of profile picture */
         }
         
         header h1 {
@@ -34,6 +40,25 @@ def hello_world():
         header p {
             font-size: 1.2rem;
             opacity: 0.8;
+        }
+        
+        /* Profile Picture Styles */
+        .profile-picture {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         
         .container {
@@ -134,6 +159,14 @@ def hello_world():
             .skills ul {
                 justify-content: center;
             }
+            
+            /* Responsive profile picture */
+            .profile-picture {
+                width: 80px;
+                height: 80px;
+                top: 15px;
+                right: 15px;
+            }
         }
     </style>
 </head>
@@ -141,15 +174,18 @@ def hello_world():
     <header>
         <div class="container">
             <h1>Joshua Ferreira</h1>
-            <p>Software & Web Development student</p>
+            <p>Web/Software Developer Student</p>
+            <div class="profile-picture">
+                <img src="Profile_Pic.jpg" alt="Joshua Ferreira">
+            </div>
         </div>
     </header>
     
     <div class="container">
         <section class="about">
             <h2>About Me</h2>
-            <p>My Name is Joshua Ferreira, and I am a student at Haverhill High School, where I enroll in the CTE Program.</p>
-            <p>I'm constantly learning and evolving my skills to stay at the forefront of software trends and technologies.</p>
+            <p>My name is Joshua Ferreira, I am a student at Haverhill High School where I enroll in their CTE Program.</p>
+            <p>I'm constantly learning new skills to stay up to date on software trends and technologies.</p>
         </section>
         
         <section class="skills">
@@ -157,31 +193,29 @@ def hello_world():
             <ul>
                 <li>Python</li>
                 <li>SQL</li>
+                <li>Terminal (MacOS, Linux [Ubuntu])</li>
+                <li>Flask</li>
                 <li>Vue.js</li>
                 <li>CakePHP</li>
-                <li>Flask</li>
-                <li>Git & GitHub</li>
                 <li>Java</li>
-                <li>Ubuntu</li>
-                <li>MacOS</li>
-                <li>Windows</li>
-                <li>ChromeOS</li>
+                <li>Git & GitHub</li>
+                <li>Linux (Ubuntu)</li>
             </ul>
         </section>
         
         <section class="projects">
             <h2>Projects</h2>
             <div class="project">
-                <h3>Project 1: To Do List</h3>
-                <p>I made a To Do list using Vue.js in my HydraCor internship, where the user could type in tasks that they wanted to complete, and check off completed tasks, as well as delete and add them. Try here: (https://github.com/Kointaker/TODO-App)</p>
+                <h3>Project 1: Anime-Aura-Roulette</h3>
+                <p>A roulette style game made with Python where you spin for Dragon Ball Inspired auras, ranging from Super Saiyan to Ultra Instinct. You can view your inventory, whats missing, and more. Try here: <a href="https://github.com/Kointaker/Anime-Aura-Roulette">(https://github.com/Kointaker/Anime-Aura-Roulette)</a></p>
             </div>
             <div class="project">
-                <h3>Project 2: Dragon Ball Aura Roulette</h3>
-                <p>This was a game that I made using python, where users could roll for auras in the Dragon Ball Universe, from super saiyan to ultra instinct. Users could view auras, see which ones they were missing, and more! Try here: (https://github.com/Kointaker/Anime-Aura-Roulette)</p>
+                <h3>Project 2: To Do App</h3>
+                <p>A To-Do list app made using Vue.js, where users can create tasks, see them, check them as completed, delete them, and more. Try here: <a href="https://github.com/Kointaker/TODO-App">(https://github.com/Kointaker/TODO-App)</a></p>
             </div>
             <div class="project">
-                <h3>Project 3: Content Mangement System</h3>
-                <p>A blog app that I also made in my HydraCore Internship, where users could post, view posts, manage posts, login and logout, and more! Try here:(https://github.com/Kointaker/cms)</p>
+                <h3>Project 3: Content Management System</h3>
+                <p>A Content Management System blog website made using CakePHP, where users can create an account, login, post blogs, and more. Try here: <a href="https://github.com/Kointaker/cms">(https://github.com/Kointaker/cms)</a></p>
             </div>
         </section>
         
@@ -210,7 +244,8 @@ def hello_world():
             <p>&copy; 2025 Your Name. All Rights Reserved.</p>
         </div>
     </footer>
-</body>'''
+</body>
+</html>'''
 
 
 
