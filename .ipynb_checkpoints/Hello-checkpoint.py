@@ -44,7 +44,20 @@ def hello_world():
 
     
         
-      .profile-picture img {
+        /* Profile Picture Styles */
+        .profile-picture {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .profile-picture img {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -149,7 +162,13 @@ def hello_world():
                 justify-content: center;
             }
             
-       
+            /* Responsive profile picture */
+            .profile-picture {
+                width: 80px;
+                height: 80px;
+                top: 15px;
+                right: 15px;
+            }
         }
     </style>
 </head>
@@ -158,6 +177,9 @@ def hello_world():
         <div class="container">
             <h1>Joshua Ferreira</h1>
             <p>Web/Software Developer Student</p>
+            <div class="profile-picture">
+                <img src="Profile_Pic.jpg" alt="Joshua Ferreira">
+            </div>
         </div>
     </header>
     
