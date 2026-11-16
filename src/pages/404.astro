@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { url } from '../data/site';
+---
+
+<Layout title="Page not found — Joshua Ferreira">
+  <section class="page-intro container">
+    <div class="eyebrow">404 / A small detour</div>
+    <h1>
+      Let’s find
+      <br />
+      our <em>way back.</em>
+    </h1>
+    <p class="page-lead">That page isn’t here. There’s plenty more to explore.</p>
+    <a class="button primary" href={url()}>
+      Back to home →
+    </a>
+  </section>
+</Layout>
