@@ -23,8 +23,10 @@ function image(img, { className = '', loading = 'lazy', priority = false } = {})
   return `<img${className ? ` class="${className}"` : ''} src="/${escapeHtml(img.src)}" alt="${escapeHtml(img.alt)}" width="${img.width}" height="${img.height}" loading="${loading}" decoding="async"${priority ? ' fetchpriority="high"' : ''}>`;
 }
 
+// External links open in a new tab so the portfolio stays open. The hidden
+// text tells screen-reader users about the new tab before they follow it.
 function externalLink(link, className = 'button-link') {
-  return `<a class="${className}" href="${escapeHtml(link.url)}">${escapeHtml(link.label)}${arrowIcon()}</a>`;
+  return `<a class="${className}" target="_blank" rel="noopener noreferrer" href="${escapeHtml(link.url)}">${escapeHtml(link.label)}<span class="visually-hidden"> (opens in a new tab)</span>${arrowIcon()}</a>`;
 }
 
 function profileLinks(site, className) {

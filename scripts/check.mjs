@@ -129,6 +129,20 @@ try {
     assert.match(card, /href="https:\/\/github\.com\/Kointaker\/Centurion">View on GitHub/);
   });
 
+  check('external links open in a new tab; site links stay in the same tab', () => {
+    for (const page of pages) {
+      for (const [tag] of read(out, page).matchAll(/<a\b[^>]*>/g)) {
+        const external = /href="https?:\/\//.test(tag);
+        if (external) {
+          assert.match(tag, /target="_blank"/, `${page}: ${tag}`);
+          assert.match(tag, /rel="noopener noreferrer"/, `${page}: ${tag}`);
+        } else {
+          assert.doesNotMatch(tag, /target=/, `${page}: ${tag}`);
+        }
+      }
+    }
+  });
+
   check('experience page lists all seven entries, current roles first, then by date', () => {
     const html = read(out, 'experience/index.html');
     assert.deepEqual(ids(html, 'entry'), [
