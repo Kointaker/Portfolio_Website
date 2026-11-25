@@ -8,7 +8,7 @@
       "end": null,
       "status": "published",
       "homepage": { "featured": true, "order": 1 },
-      "summary": "Help customers find products, explain promotions, and resolve inquiries while supporting checkout and mobile-order operations."
+      "summary": "Deliver personalized customer service by learning what shoppers need and guiding them to the right products across fragrance, body care, and home lines. Support sales and loyalty sign-up goals by highlighting promotions, run high-volume checkout lines quickly and accurately, and resolve customer questions. Use point-of-sale registers and mobile-order software to keep store operations running smoothly."
     },
     {
       "id": "merrimack-it-help-desk",
@@ -18,7 +18,7 @@
       "end": null,
       "status": "published",
       "homepage": { "featured": true, "order": 2 },
-      "summary": "Provide hardware, software, and account support to students, faculty, and staff. Track and resolve requests through TeamDynamix, perform on-site troubleshooting, and escalate complex issues."
+      "summary": "Serve as a primary point of contact for technology support across campus, troubleshooting hardware and software issues for students, faculty, and staff by email, phone, and in person. Track, prioritize, and resolve service requests in TeamDynamix, escalating complex issues to the appropriate support tiers. Travel to on-site locations for in-person repairs and help with account setup, password resets, and hardware."
     },
     {
       "id": "mit-clean-energy-intern",
@@ -28,7 +28,7 @@
       "end": "2026-08",
       "status": "published",
       "homepage": { "featured": false, "order": 0 },
-      "summary": "Collaborated on sustainable-technology design challenges, moving from research and stakeholder needs to physical prototypes, technical presentations, and product pitches."
+      "summary": "Took part in rapid invention sprints and engineering design challenges focused on sustainable technologies, taking concepts from qualitative and quantitative research through to physical prototypes. Worked in a range of teams to analyze stakeholder requirements and prioritize problem banks using impact and urgency metrics, then built prototypes for demonstration and showcased them through technical presentations and product pitches."
     },
     {
       "id": "rapid-coatings-operations-intern",
@@ -38,7 +38,7 @@
       "end": "2025-08",
       "status": "published",
       "homepage": { "featured": false, "order": 0 },
-      "summary": "Supported PCB shipping, receiving, and production preparation. Created work orders and job packets, tracked materials, and masked and unmasked boards during the coating process."
+      "summary": "Managed shipping and receiving for printed circuit boards, unpacking and packing incoming and outgoing orders. Created work orders and job packets in company software so materials were tracked accurately on their way to the production floor. Handled boards through multiple production stages, masking them with tape, 3D-printed boots, and gel before coating and unmasking them afterward."
     },
     {
       "id": "wbla-cybersecurity-intern",
@@ -48,7 +48,7 @@
       "end": "2024-11",
       "status": "published",
       "homepage": { "featured": false, "order": 0 },
-      "summary": "Researched a cybersecurity vulnerability with a remote team and presented findings to industry experts. Collaborated in daily planning meetings and met project deadlines."
+      "summary": "Completed a remote project focused on cybersecurity and team collaboration. Researched our team’s assigned cybersecurity vulnerability and helped prepare a presentation of our findings for industry experts and employers. Collaborated daily with teammates and industry experts in planning meetings, communicated information clearly, and met every project deadline."
     },
     {
       "id": "hydracor-software-intern",
@@ -58,7 +58,7 @@
       "end": "2024-08",
       "status": "published",
       "homepage": { "featured": false, "order": 0 },
-      "summary": "Completed development tasks using Vue.js and CakePHP with GitHub version control. Collaborated with supervisors and participated in refinement and sprint planning."
+      "summary": "Completed assigned development projects while following company procedures and collaborating closely with supervisors and team members. Participated in refinement and sprint planning meetings, managed tasks independently, and demonstrated reliability, organization, and professionalism throughout the internship."
     },
     {
       "id": "haverhill-technical-support-intern",
@@ -68,7 +68,7 @@
       "end": "2023-08",
       "status": "published",
       "homepage": { "featured": false, "order": 0 },
-      "summary": "Diagnosed and repaired Chromebook hardware and software issues, tracked inventory and replacement components, and documented damaged devices and operational problems."
+      "summary": "Worked closely with coworkers to diagnose and repair Chromebook hardware and software issues, inspecting, testing, and modifying devices that needed repair. Documented inventory, tracked missing components, and recorded the parts used in each repair. Handled the disposal and reporting of broken devices and parts, and kept supervisors informed of any operational problems."
     }
   ]
 }
