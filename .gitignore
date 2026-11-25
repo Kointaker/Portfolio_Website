@@ -1,7 +1,23 @@
-node_modules/
+# Build output (rebuilt by Cloudflare Pages from source)
 dist/
-.astro/
-playwright-report/
-test-results/
-.env*
-!.env.example
+
+# Dependencies (none today; kept out if any are added)
+node_modules/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Private source material — keep originals outside this repository.
+# These patterns are a safety net, not a place to store such files.
+private/
+*.pdf
+*.docx

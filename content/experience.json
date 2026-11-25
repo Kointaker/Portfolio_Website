@@ -1,0 +1,74 @@
+{
+  "experience": [
+    {
+      "id": "bath-and-body-works-retail",
+      "employer": "Bath & Body Works",
+      "title": "Seasonal Retail Associate",
+      "start": "2026-10",
+      "end": null,
+      "status": "published",
+      "homepage": { "featured": true, "order": 1 },
+      "summary": "Help customers find products, explain promotions, and resolve inquiries while supporting checkout and mobile-order operations."
+    },
+    {
+      "id": "merrimack-it-help-desk",
+      "employer": "Merrimack College",
+      "title": "IT Help Desk Technician",
+      "start": "2026-09",
+      "end": null,
+      "status": "published",
+      "homepage": { "featured": true, "order": 2 },
+      "summary": "Provide hardware, software, and account support to students, faculty, and staff. Track and resolve requests through TeamDynamix, perform on-site troubleshooting, and escalate complex issues."
+    },
+    {
+      "id": "mit-clean-energy-intern",
+      "employer": "MIT",
+      "title": "Clean Energy Intern",
+      "start": "2026-08",
+      "end": "2026-08",
+      "status": "published",
+      "homepage": { "featured": false, "order": 0 },
+      "summary": "Collaborated on sustainable-technology design challenges, moving from research and stakeholder needs to physical prototypes, technical presentations, and product pitches."
+    },
+    {
+      "id": "rapid-coatings-operations-intern",
+      "employer": "Rapid Coatings Inc.",
+      "title": "Manufacturing & Operations Intern",
+      "start": "2025-06",
+      "end": "2025-08",
+      "status": "published",
+      "homepage": { "featured": false, "order": 0 },
+      "summary": "Supported PCB shipping, receiving, and production preparation. Created work orders and job packets, tracked materials, and masked and unmasked boards during the coating process."
+    },
+    {
+      "id": "wbla-cybersecurity-intern",
+      "employer": "Work-Based Learning Alliance",
+      "title": "Cybersecurity Project Intern",
+      "start": "2024-10",
+      "end": "2024-11",
+      "status": "published",
+      "homepage": { "featured": false, "order": 0 },
+      "summary": "Researched a cybersecurity vulnerability with a remote team and presented findings to industry experts. Collaborated in daily planning meetings and met project deadlines."
+    },
+    {
+      "id": "hydracor-software-intern",
+      "employer": "HydraCor",
+      "title": "Software Development Intern",
+      "start": "2024-07",
+      "end": "2024-08",
+      "status": "published",
+      "homepage": { "featured": false, "order": 0 },
+      "summary": "Completed development tasks using Vue.js and CakePHP with GitHub version control. Collaborated with supervisors and participated in refinement and sprint planning."
+    },
+    {
+      "id": "haverhill-technical-support-intern",
+      "employer": "Haverhill Public Schools",
+      "title": "Technical Support Intern",
+      "start": "2023-06",
+      "end": "2023-08",
+      "status": "published",
+      "homepage": { "featured": false, "order": 0 },
+      "summary": "Diagnosed and repaired Chromebook hardware and software issues, tracked inventory and replacement components, and documented damaged devices and operational problems."
+    }
+  ]
+}

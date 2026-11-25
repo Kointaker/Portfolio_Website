@@ -1,0 +1,23 @@
+{
+  "name": "Joshua Ferreira",
+  "siteUrl": "https://kointaker.com",
+  "language": "en",
+  "description": "Computer science student at Merrimack College interested in AI, machine learning, and entrepreneurship.",
+  "intro": [
+    "I'm Joshua Ferreira, a computer science student at Merrimack College interested in AI, machine learning, and entrepreneurship. I'm exploring how AI-assisted development can turn ideas into useful applications, games, and tools.",
+    "Alongside my studies, I work as an IT Help Desk Technician at Merrimack College and a seasonal retail associate at Bath & Body Works. Outside of school and work, I enjoy fitness, anime, and cars."
+  ],
+  "portrait": {
+    "src": "assets/images/portrait/joshua-ferreira.jpg",
+    "alt": "Joshua Ferreira seated at a table beside a large window, looking to the side."
+  },
+  "profiles": [
+    { "id": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/joshua-ferreira-mass/" },
+    { "id": "github", "label": "GitHub", "url": "https://github.com/Kointaker" }
+  ],
+  "home": {
+    "projectLimit": 4,
+    "experienceLimit": 2,
+    "certificationLimit": 6
+  }
+}

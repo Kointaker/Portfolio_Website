@@ -1,36 +1,15 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "Joshua Ferreira — personal portfolio",
-  "scripts": {
-    "dev": "astro dev --host 0.0.0.0",
-    "build": "astro build",
-    "preview": "astro preview --host 0.0.0.0",
-    "test": "playwright test",
-    "format": "prettier --write ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kointaker/Portfolio_Website.git"
-  },
-  "keywords": [],
-  "author": "Joshua Ferreira",
+  "name": "kointaker-portfolio",
+  "private": true,
+  "description": "Joshua Ferreira's personal portfolio website (static, no runtime dependencies).",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/Kointaker/Portfolio_Website/issues"
+  "engines": {
+    "node": ">=20"
   },
-  "homepage": "https://github.com/Kointaker/Portfolio_Website#readme",
-  "dependencies": {
-    "@fontsource-variable/manrope": "^5.3.0",
-    "@fontsource-variable/space-grotesk": "^5.3.0",
-    "@fontsource/ibm-plex-mono": "^5.3.0",
-    "astro": "^7.4.12"
-  },
-  "devDependencies": {
-    "@axe-core/playwright": "^4.14.0",
-    "@playwright/test": "^1.65.1",
-    "prettier": "^3.10.1",
-    "prettier-plugin-astro": "^1.1.2"
-  },
-  "private": true
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  }
 }
