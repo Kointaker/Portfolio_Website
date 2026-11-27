@@ -161,6 +161,7 @@ function loadSite(file, root) {
   const site = readJson(file);
   const where = 'content/site.json';
   requireString(where, site.name, 'name');
+  requireString(where, site.wordmark, 'wordmark');
   requireHttpsUrl(where, site.siteUrl, 'siteUrl');
   requireString(where, site.language, 'language');
   requireString(where, site.description, 'description');

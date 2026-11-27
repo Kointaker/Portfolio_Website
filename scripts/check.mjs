@@ -93,6 +93,7 @@ try {
       const html = read(out, page);
       assert.equal((html.match(/<h1\b/g) ?? []).length, 1, `${page}: h1 count`);
       assert.match(html, /<a class="skip-link" href="#main">/);
+      assert.match(html, /<a class="wordmark" href="\/">Kointaker<\/a>/, `${page}: header wordmark`);
       const nav = html.match(/<nav aria-label="Primary">([\s\S]*?)<\/nav>/)[1];
       const labels = [...nav.matchAll(/>([^<]+)<\/a>/g)].map((m) => m[1]);
       assert.deepEqual(labels, ['Home', 'Experience'], `${page}: navigation`);

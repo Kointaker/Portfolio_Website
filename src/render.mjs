@@ -132,7 +132,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" hr
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="wordmark" href="/">${escapeHtml(site.name)}</a>
+    <a class="wordmark" href="/">${escapeHtml(site.wordmark)}</a>
     <nav aria-label="Primary"><ul role="list">${nav}</ul></nav>
   </div>
 </header>
